@@ -1,0 +1,27 @@
+
+
+.container{
+     height : 100vh;
+     width:100%;
+     background-color: white;
+     color: rgb(16, 15, 15);
+}
+
+
+
+/* Responsive styles for medium-sized screens */
+@media screen and (max-width: 1024px) {
+    .container {
+        width:100%;
+        height: 100%;
+    }
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+

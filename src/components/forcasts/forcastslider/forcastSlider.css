@@ -1,0 +1,21 @@
+.slider{
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    margin: 2px;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .slider{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        overflow-x:auto;
+        height: 300px;
+    }
+    
+}

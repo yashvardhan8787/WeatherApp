@@ -1,0 +1,7 @@
+.chart{
+  overflow-y: auto;
+ margin-right: 40px;
+}
+.chart::-webkit-scrollbar {
+    display: none;
+  }

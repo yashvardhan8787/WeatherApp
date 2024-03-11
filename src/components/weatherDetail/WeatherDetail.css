@@ -1,0 +1,102 @@
+.WeatherDetail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+   
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: right;
+    border-right: 3px solid grey;
+   
+}
+.weatherheading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.day{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    margin-right: 2px;
+}
+.weather-conditon{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    margin-right: 2px;
+}
+.detail{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.weatherlogo{
+  height: 100px;
+  width:100px;
+  border-radius: 55%;
+
+  
+}
+.tempretaure{
+    font-size: 86px;
+    font-weight: bold;
+}
+.SI-Value{
+    display: flex;
+  flex-direction: row;
+
+}
+.celcius{
+    font-size: large;
+    padding: 2px;
+    font-weight: bolder;
+    height: 25px;
+    width: 28px;
+    border-right: 1px solid black ;
+    display: flex;
+    flex-direction: row;
+
+}
+.ferenhite{
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    height: 25px;
+    width: 28px;
+    padding: 2px;
+    
+   
+}
+.temp{
+    display: flex;
+    flex-direction: row;
+}
+.otherdetails{
+    color: grey;
+    text-align: left;
+    margin-left: 6px;
+}
+@media screen and (max-width: 768px) {
+    .WeatherDetail{
+        display: flex;
+         flex-direction: column;   
+       margin-bottom: 0%;
+    }
+    .detail{
+        margin: 30px;
+        display: flex;
+        text-align: left;
+        flex-direction: row;
+    }
+    .temp{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
